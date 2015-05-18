@@ -1,0 +1,6 @@
+[submodule "sites/all/modules/todo"]
+	path = sites/all/modules/todo
+	url = https://github.com/jonlin14/epicodus_features
+[submodule "sites/all/modules/pet_module"]
+	path = sites/all/modules/pet_module
+	url = https://github.com/jonlin14/epicodus_features
