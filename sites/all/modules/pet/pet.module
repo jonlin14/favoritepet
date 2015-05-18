@@ -1,0 +1,19 @@
+<?php
+function pet_menu() {
+    $items = array();
+    $items['pet'] = array(
+    'title' => 'Favorite Pet',
+    'page callback' => 'pet_function',
+    'access callback' => TRUE,
+    'type' => MENU_NORMAL_ITEM
+    );
+    return $items;
+}
+
+function pet_function() {
+    return '
+    <p>Lassie is my favorite pet</p>
+    <img src="http://unrealitymag.bcmediagroup.netdna-cdn.com/wp-content/uploads/2014/06/piginthecity.jpg">
+    <a href="http://www.imdb.com/title/tt0112431/">Lassie</a>
+    ';
+}
